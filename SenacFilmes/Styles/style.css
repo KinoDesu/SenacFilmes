@@ -20,6 +20,7 @@ body {
     background-color: var(--bg-principal);
     color: var(--font-color-principal);
     font-family: var(--font-principal);
+    overflow-x: hidden;
 }
 
 a {
@@ -114,6 +115,7 @@ h2 {
 }
 
 .secao {
+    padding: 8rem;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -121,7 +123,7 @@ h2 {
 }
 
 .card {
-    width: 200px;
+    width: 8vw;
     background-color: var(--bg-secundario);
     border-radius: 10px;
     display: flex;

@@ -1,4 +1,4 @@
-const url = "https://api.themoviedb.org/3/trending/movie/day?api_key=1e922667481ab207d642450b0efb461e"
+const url = "https://api.themoviedb.org/3/trending/movie/day?api_key=1e922667481ab207d642450b0efb461e&language=pt-BR"
 let filmes
 
 async function carregarFilmes() {
@@ -19,7 +19,7 @@ function card(filme) {
     <img src="https://image.tmdb.org/t/p/w200/${filme.poster_path}" alt="Pôster Doutor Estranho no Multiverso da Loucura">
     <p>${filme.title}</p>
     <p>⭐ ${filme.vote_average}</p>
-    <a class="botao" href="detalhesDoutorEstranho.html">detalhes</a>
+    <a class="botao" href="detalhes.html">detalhes</a>
 </div>`
 
     return element
